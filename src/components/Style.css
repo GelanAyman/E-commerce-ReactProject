@@ -1,0 +1,121 @@
+
+.footer, .navbar {
+        background-color: #FFDFFF;
+}
+.navbar a, .footer {
+        color: #ddd !important;
+}
+
+.title {
+        margin: 50px auto;
+        position: relative;
+}
+
+.logoImg {
+        width: 50px;
+        height: 50px;
+}
+
+.title::after {
+        position: absolute;
+        content: '';
+        width: 250px;
+        height: 3px;
+        background-color: #000;
+        bottom: -25%;
+        left: 50%;
+        transform: translateX(-50%);
+}
+
+
+.card-img-top {
+        width: 150px !important;
+        height: 150px !important;
+        margin: 5px auto;
+}
+
+.card {
+        /* height: 520px !important; */
+        border-radius: 10px !important;
+        margin-bottom: 10px !important;
+        border: 1px solid #808080 !important;
+}
+.card:hover {
+        box-shadow: 5px 5px 10px #d3d3d3 ;
+}
+
+.card-text {
+        color: #808080;
+        font-size: 20px;
+        font-weight: bold;
+}
+
+/* 
+.PDescription {
+        font-weight: bold;
+} */
+
+.PImage {
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin: 50px auto;
+        border: 1px solid #808080;
+        border-radius: 20px;
+        padding: 50px;
+}
+
+.productData {
+        border: 1px solid #808080;
+        padding: 20px;
+}
+
+
+.catBtn {
+        margin: 5px;
+}
+
+.category {
+        margin: 5px ;
+        text-align: center;
+}
+
+.footer {
+        padding: 20px 0 0 0;
+}
+
+
+form {
+        margin: 100px auto;
+        /* width: 60%; */
+}
+form .formData {
+        border: 1px solid #000;
+        padding: 20px;
+        border-radius: 20px;
+}
+form input {
+        background-color: #eee;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        width: 95%;
+        height: 50px;
+        margin: 5px 0;
+        padding: 5px;
+}
+
+form button {
+        margin: 20px 0;
+        width: 25%;
+}
+
+/* .navbar #Cart {
+        width: 20px; 
+        height: 19px; 
+        font-size: 10px;
+}
+
+.navbar .cart-icon {
+        font-size: 150%;
+} */
